@@ -1,0 +1,412 @@
+/**
+*
+* Estilos Generales de la Web
+*
+**/
+
+
+html {
+  scroll-behavior: smooth;
+  background-color: lightslategray;
+  width: 100%;
+  overflow: visible;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+body{
+    margin:0;
+    background-color: none !important;
+}
+
+.container-fluid{
+    background-color: none;
+}
+
+/**
+*
+* Estilo del Header
+*
+**/
+
+.colums-hd:last-child{
+    text-align: center;
+    padding-top: 2%;
+    height: 120px;
+}
+
+.main-menu-1{
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: -44px;
+}
+
+.main-menu-1>li>a{
+    padding-bottom:5px;
+    margin-left:10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none !important;
+    color:white;
+}
+
+.main-menu-1>li>a:hover{
+    color: #bb2929;
+    transition: 0.3s ease all;
+    border-bottom:2px #bb2929 solid;
+}
+
+.menu{
+    padding-top: 25px;
+}
+
+.logo-menu{
+display: flex;
+padding-top:25px;
+padding-bottom: 25px;
+}
+
+.logo{
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+header{
+    z-index: 999;
+    position: absolute;
+    width:100%;
+}
+
+/**
+*
+* Japan Bar DIV
+*
+**/
+
+.slide{
+    width: 100% !important
+}
+
+.japan-bar{
+    height:947px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)), url(../img/fondo.jpg);
+    text-align:center;
+}
+
+.japan-bar>img{    
+    width: 300px;
+    padding-top: 15%;
+    filter: grayscale(20%);
+}
+
+
+.japan-bar>h2{
+    padding-top: 27px;
+    font-weight: 100;
+    font-size: 31px;
+    font-family: Source Sans Pro;
+}
+
+.japan-bar>h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/**
+*
+* Información de la Web
+*
+**/
+
+.content{
+    background-color: white;
+}
+
+.dim-sum{
+    margin-left: 20%;
+    padding-top: 2%;
+}
+
+.dim-sum-title{
+    font-size: 55px;
+    color: #bb2929;
+    text-align: left;
+    font-family: Source Sans Pro;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.street-food{
+    font-size: 35px;
+    color: #000000;
+    text-align: left;
+    font-family: Source Sans Pro;
+    font-weight: 200;
+    font-style: normal;
+    border-bottom: #bb2929 1px solid;
+    border-bottom-width: 2px;
+    width: 11%;
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+.lore-ipsum, .lore-ipsum-2{
+    color:#242321 !important;
+    font-size: 16px;
+    width: 35%;
+    display: inline-flex;
+}
+
+.lore-ipsum-3, .lore-ipsum-4{
+    font-size: 16px;
+    width: 35%;
+    display: inline-flex;
+}
+
+.lore-ipsum-2{
+    padding-bottom: 10%;
+}
+
+h2{
+    margin:0;
+}
+
+.img-dimsum{
+    width: 22%;
+    margin-left: 1%;
+    display: inline-flex;
+    z-index: 999;
+    position: absolute;
+    margin-top: 8%;
+}
+
+
+.img-ramen{
+    width: 22%;
+    margin-left: 56%;
+    display: inline-flex;
+    z-index: 999;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.img-dimsum-2, .img-dimsum-3{
+    width: 17%;
+    z-index: 999;
+    position: absolute;
+    box-shadow: -2px 7px 41px 16px rgba(0,0,0,0.34);
+}
+
+.img-dimsum-3{
+    margin-left: 41%;
+    margin-top: -119px;
+    z-index: 998;
+}
+
+.img-dimsum-2{
+    margin-left: 31%;
+}
+
+/**
+*
+* Contenido DIM SUM
+*
+**/
+
+.content-2{
+    width: 100%;
+    background-image:url(../img/fonto-content.png);
+    height: 450px;
+}
+
+.street-food-2{
+    font-size: 35px;
+    text-align: left;
+    font-family: Source Sans Pro;
+    font-weight: 200;
+    font-style: normal;
+    border-bottom: #bb2929 1px solid;
+    border-bottom-width: 2px;
+    width: 9%;
+    margin-bottom: 15px;
+    height: 54px;
+}
+
+/**
+*
+* Contenido Ramen
+*
+**/
+
+.content-3{
+    height:450px;
+    background-image:url(../img/ramen-fondo.jpg);
+    width: 100%;
+}
+
+/**
+*
+* Carta Ramen Japan Bar
+*
+**/
+
+.main-menu-2{
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 41%;
+}
+
+.main-menu-2>li>a{
+    padding-bottom:5px;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none !important;
+    margin-left:10px;
+    color:black;
+}
+
+.main-menu-2>li>a:hover{
+    color: #bb2929;
+    transition: 0.3s ease all;
+    border-bottom:2px #bb2929 solid;
+}
+
+
+#ramen{
+    margin-left:25%;
+}
+
+.carta{
+    text-align:center;
+    font-size: 22px;
+    padding: 38px 0px;
+    background-image:url(https://hongkongbar.es/wp-content/uploads/2018/12/hong-kong-bar-pattern-fondo-carta.jpg?id=882) !important;
+    height:641.484px;
+    width: 100%;
+}
+
+.carta>h2{
+    color:#bb2929;
+    font-size:45px;
+}
+
+#ramen-food, #bebida-food{
+    display:none;
+}
+
+#dimsum-food, #ramen-food, #bebida-food{
+    text-align:left !important;
+    margin-left: 40%;
+}
+
+.precio{
+    padding-left: 18%;
+    border-bottom: 1px dotted #ccc;
+    color:black;}
+
+.titulo{border-bottom: 1px dotted #ccc;
+    color:black;
+}
+
+span{font-size:20px !important;
+    color:black;
+}
+
+.dimsum-eat>h3, #ramen-food>h3, #bebida-food>h3{
+    color:black;
+}
+
+/**
+*
+* Fomulario
+*
+**/
+
+input{
+    color:black;
+    border-radius: 10px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+.contacto{
+    width:100%;
+}
+
+.datos{
+    float:left;
+}
+
+.area{
+    float:right;
+}
+
+.info-datos{
+    float:right;
+}
+
+.info-datos>h4{
+    color:black;
+    padding-bottom: 5px;
+    border-bottom: 2px #bb2929 solid;
+}
+
+#form>form>h2{
+    color:black;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.submit{
+    border-color:#bb2929;
+    margin-left: 700px;
+    margin-top: 2%;
+    border-radius: 5px !important;
+    background-color: #bb2929;
+    color: white;
+    opacity: 0.6;
+}
+
+.submit:hover{
+    border-color:#bb2929;
+    opacity: 1;
+    background-color: #bb2929;
+    color: white;
+    transition: 0.3s;
+}
+
+/**
+*
+* Estilo del Footer
+*
+**/
+
+footer{
+    width:100% !important;
+    text-align: center !important;
+    background-color: #000000;
+}
+
+.diseño{
+    color:white;
+    padding-left: 45%;
+    padding-top: 7px;
+}
+
+.formulario{
+    height: 602.469px;
+}
+
+textarea{
+    color:black;
+}

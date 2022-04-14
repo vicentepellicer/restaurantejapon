@@ -1,0 +1,195 @@
+@media (min-width:360px) and (max-width:767px){
+    .logo{
+        display: none;
+    }
+
+    .main-menu-1{
+        margin-top: 10%;
+        margin-left: -229px;
+    }
+
+    .main-menu-1>li>a {
+        font-size: 12.5px;
+    }
+
+    .japan-bar>h2 {
+        padding-top: 22%;
+        margin-left: -20px;
+    }
+
+    .japan-bar>h1 {
+        font-size: 30px;
+        padding-left: 55px;
+        padding-right: 15px;
+        margin-left: -53px;
+    }
+
+    .lore-ipsum, .lore-ipsum-2, .lore-ipsum-3, .lore-ipsum-4{
+        font-size: 18px;
+        width: 93%;
+    }
+
+    .dim-sum {
+        margin-left: 4%;
+        height: 1000px;
+    }
+
+    .street-food {
+        font-size: 47px;
+        width: 25%;
+        height: 114px;
+    }
+
+    .img-dimsum {
+        width: 78%;
+        margin-left: -81%;
+        margin-top: 253%;
+    }
+
+    .img-ramen {
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 128%;
+    }
+
+    .img-dimsum-2, .img-dimsum-3 {
+        width: 60%;
+    }
+
+    .img-dimsum-2 {
+        margin-left: 8%;
+        margin-top: 136%;
+    }
+
+    .img-dimsum-3 {
+        margin-left: 28%;
+        margin-top: 112%;
+    }
+
+    .content-2, .content-3{
+        height: 850px;
+    }
+
+    .street-food-2 {
+        font-size: 48px;
+        width: 27%;
+        height: 67px;
+    }
+
+    .nav {
+        margin-left: -30%;
+    }
+
+    .main-menu-2 {
+        margin-left: 33%;
+    }
+
+    #dimsum-food, #ramen-food, #bebida-food {
+        margin-left: 15%;
+    }
+
+    .area, .datos{
+        float:inherit;
+    }
+
+    .datos{
+        padding-left: 75%;
+    }
+
+    .area{
+        margin-top: 52%;
+    }
+
+    textarea{
+        margin-top: 15%;
+        width: 215%;
+    }
+
+    .formulario{
+        height: 829px !important;
+    }
+
+    .submit {
+        border-color: #bb2929;
+        margin-left: 38%;
+        margin-top: 6%;
+        margin-bottom: 3%;
+        border-radius: 5px !important;
+        background-color: #bb2929;
+        color: white;
+        opacity: 0.6;
+        font-size: 21px;
+    }
+
+    .diseño {
+        padding-left: 26%;
+        padding-top: 10px
+    }
+}
+
+@media (width:414px){
+    
+    .img-ramen {
+        width: 87%;
+        margin-left: 5%;
+        margin-top: 110%;
+    }
+
+    .img-dimsum {
+        width: 78%;
+        margin-left: -81%;
+        margin-top: 234%;
+    }
+
+    .img-dimsum-2 {
+        margin-left: 8%;
+        margin-top: 122%;
+    }
+
+    .img-dimsum-3 {
+        margin-left: 28%;
+        margin-top: 97%;
+    }
+
+}
+
+@media (width:360px){
+    
+    .img-ramen {
+        width: 87%;
+        margin-left: 5%;
+        margin-top: 135%;
+    }
+
+    .img-dimsum {
+        width: 78%;
+        margin-left: -81%;
+        margin-top: 263%;
+    }
+
+    .img-dimsum-2 {
+        margin-left: 8%;
+        margin-top: 149%;
+    }
+
+    .img-dimsum-2 {
+        margin-left: 8%;
+        margin-top: 149%;
+    }
+
+    .img-dimsum-3 {
+        margin-left: 28%;
+        margin-top: 125%;
+    }
+
+    .street-food-2 {
+        font-size: 44px;
+        width: 27%;
+        height: 67px;
+    }
+
+    .img-dimsum-2, .img-dimsum-3 {
+        width: 52%;
+    }
+
+}

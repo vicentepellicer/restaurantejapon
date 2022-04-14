@@ -1,0 +1,45 @@
+.diseño{
+    color: white;
+    padding-left: 45%;
+    padding-top: 7px;
+    height: 32px;
+}
+
+@media (min-width:360px) and (max-width:767px){
+
+    .logo {
+        margin-left: 7%;
+        margin-top: 20px;
+    }
+
+    .main-menu-1 {
+        list-style: none;
+        display: inline-flex;
+        text-align: center;
+        margin-top: 23%;
+        margin-left: -44px;
+    }
+
+    .main-menu-1>li>a {
+        padding-bottom: 5px;
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none !important;
+        color: white;
+    }
+
+    .japan-bar{
+        padding-top: 34%;
+    }
+
+    .bt {
+        color: white;
+        margin-top: 21px;
+        width: 123%;
+        margin-left: -4px;
+        border-color: #bb2929;
+        background-color: #bb2929;
+        opacity: 0.6;
+    }
+}
